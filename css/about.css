@@ -1,0 +1,71 @@
+/* .about section starts */
+
+.about {
+  min-height: 350px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.about article {
+  width: 50%;
+  padding: 20px;
+}
+.about h2 {
+  font-size: 1.9rem;
+}
+.about article p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+.about .picture {
+  width: 350px;
+  height: 250px;
+  margin-left: 20px;
+  border-radius: 50%;
+  background: url("../img/photo-2.jpg") no-repeat center/cover;
+}
+
+@media screen and (max-width: 760px) {
+  .about article {
+    display: block;
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+/* about section complete */
+
+/* guest section begin */
+.guest-section {
+  width: 100%;
+  padding: 50px;
+  background: url("../img/test-bg.jpg") no-repeat center/cover;
+}
+.guest-section h2 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+.guest {
+  background: #f7c08a;
+  color: #333;
+  padding: 25px;
+  border-radius: 10px;
+  opacity: 0.9;
+  margin: 30px auto;
+}
+.guest img {
+  width: 100px;
+  height: 100px;
+  border-radius: 110px;
+  margin: 5px;
+  float: left;
+}
+.guest p {
+  margin: 10px;
+}
+/* guest section ends */

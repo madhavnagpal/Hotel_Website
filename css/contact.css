@@ -1,0 +1,57 @@
+/* contact-form starts */
+
+.contact-form {
+  padding: 20px;
+  width: 90%;
+  margin: 10px auto;
+}
+.contact-form h2 {
+  font-size: 1.8rem;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+}
+button {
+  background-color: #333;
+  color: white;
+  font-size: 1.1rem;
+  padding: 3px 20px;
+  margin: 10px 0;
+}
+button:hover {
+  background-color: #f7c08a;
+  color: black;
+}
+/* contact-form ends */
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  background: #333;
+}
+
+.info {
+  text-align: center;
+  color: white;
+  padding: 30px;
+  width: 33.33%;
+}
+
+@media screen and (max-width: 720px) {
+  .info {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .info {
+    width: 100%;
+  }
+}

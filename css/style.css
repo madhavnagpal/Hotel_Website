@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+/* navbar styling */
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  position: relative;
+}
+
+.brand-name {
+  color: white;
+  font-size: 1.7rem;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bolder;
+}
+
+ul.nav-menu {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  font-size: 0;
+}
+
+ul.nav-menu li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav-link {
+  color: white;
+  display: inline-block;
+  padding: 17px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav-link:hover,
+.nav-link.current {
+  background-color: #444;
+  color: #f7c08a;
+}
+
+/* nav styling ends */
+
+/* main showcase  */
+
+.showcase {
+  width: 100%;
+  background: url("../img/showcase.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 95vh;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding-top: 170px;
+  padding-bottom: 40px;
+}
+
+.showcase h2 {
+  font-size: 60px;
+}
+.text-primary {
+  color: #f7c08a;
+}
+
+.showcase p {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.showcase a {
+  background-color: #333;
+  color: white;
+  display: inline-block;
+  font-size: 23px;
+  margin-top: 10px;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.showcase a:hover {
+  background-color: #f7c08a;
+  color: #333;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .showcase {
+    padding-top: 100px;
+  }
+}
+
+/* showcase ends */
+
+/* history section begin */
+
+.history {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+}
+
+.history .main {
+  width: 50%;
+  height: 100%;
+  background: url("../img/photo-1.jpg");
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.history article {
+  height: 100%;
+  width: 50%;
+  background-color: #333;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  overflow: scroll;
+}
+
+.history article p {
+  margin: 20px 0;
+}
+
+.history a {
+  background: #f4f4f4;
+  color: #333;
+  display: inline-block;
+  font-size: 18px;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.history a:hover {
+  background-color: #f7c08a;
+}
+
+/* history ends */
+
+/* features start */
+
+.features-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.feature {
+  text-align: center;
+  background: #f4f4f4;
+  padding: 50px;
+  width: 33.33%;
+}
+.feature.two {
+  background-color: #f7c08a;
+}
+.feature p {
+  margin: 20px 0;
+}
+@media screen and (max-width: 720px) {
+  .feature {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .feature {
+    width: 100%;
+  }
+}
+
+/* features end  */
+
+/* footer starts  */
+
+footer p {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* footer ends  */
